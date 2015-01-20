@@ -19,4 +19,4 @@ sff.genome.o: sff.c sff.h
 	gcc -D__GENOME__ -g -I. -c sff.c -o sff.genome.o
 
 clean:
-	rm sff2fastq *.o
+	rm -f sff2fastq *.o
