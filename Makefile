@@ -2,6 +2,9 @@
 
 all: sff2fastq
 
+test:
+	echo "No tests"
+
 sff2fastq: main.o sff.o
 	gcc -g -o sff2fastq main.o sff.o
 
